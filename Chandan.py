@@ -10,7 +10,7 @@ else:
 
 
 
-📌 Password Generator
+#📌 Password Generator
 
 import random
 import string
