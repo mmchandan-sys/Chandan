@@ -23,3 +23,6 @@ def generate_password(length=10):
 print("🔐 Random Password Generator")
 length = int(input("Enter password length: "))
 print("Generated Password:", generate_password(length))
+
+
+#✨simple to-Do list App
