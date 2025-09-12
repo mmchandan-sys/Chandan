@@ -1,4 +1,4 @@
-a=int(input("Enter the first number: "))
+uoa=int(input("Enter the first number: "))
 b=int(input("Enter the second number: "))
 c=int(input("Enter the third number: "))
 if a >= b and a >= c:
@@ -26,3 +26,13 @@ print("Generated Password:", generate_password(length))
 
 
 #✨simple to-Do list App
+
+tasks = []
+
+while True:
+    print("\n📋 To-Do List Menu")
+    print("1. Add Task")
+    print("2. View Tasks")
+    print("3. Exit")
+
+    choice = input("Enter your choice: ")
