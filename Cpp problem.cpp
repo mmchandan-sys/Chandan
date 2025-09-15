@@ -50,3 +50,13 @@ int main() {
 
     return 0;
 }
+
+
+#✨This program simulates a bank account where you can deposit, withdraw, and check balance.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    double balance = 0.0;
+    int choice;
