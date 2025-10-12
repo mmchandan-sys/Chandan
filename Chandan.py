@@ -20,7 +20,7 @@ def generate_password(length=10):
     password = ''.join(random.choice(characters) for _ in range(length))
     return password
 
-print("🔐 Random Password Generator")
+print("Random Password Generator")
 length = int(input("Enter password length: "))
 print("Generated Password:", generate_password(length))
 
@@ -30,7 +30,7 @@ print("Generated Password:", generate_password(length))
 tasks = []
 
 while True:
-    print("\n📋 To-Do List Menu")
+    print("\n To-Do List Menu")
     print("1. Add Task")
     print("2. View Tasks")
     print("3. Exit")
@@ -52,4 +52,4 @@ if choice == "1":
         print("Exiting... Goodbye!")
         break
     else:
-        print("❌ Invalid choice, try again.")
+        print("Invalid choice, try again.")
