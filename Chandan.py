@@ -40,7 +40,7 @@ while True:
 if choice == "1":
         task = input("Enter a new task: ")
         tasks.append(task)
-        print("✅ Task added!")
+        print("Task added!")
     elif choice == "2":
         if not tasks:
             print("No tasks yet.")
@@ -53,3 +53,12 @@ if choice == "1":
         break
     else:
         print("Invalid choice, try again.")
+
+#numbr of tabels
+
+def tabel(num):
+    for i in range(1,11):
+        print(f"{num}X{i}={num*i}")
+
+tabel(5)
+
