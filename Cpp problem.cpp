@@ -52,11 +52,12 @@ int main() {
 }
 
 
-#✨This program simulates a bank account where you can deposit, withdraw, and check balance.
-
+//practics program
 #include <iostream>
 using namespace std;
 
 int main() {
-    double balance = 0.0;
-    int choice;
+    int ans = (5/(double)5);
+    cout << ans << endl;
+    return 0;
+}
